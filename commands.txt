@@ -1,0 +1,14 @@
+set height 0
+set pagination off
+
+r
+b 1
+commands
+set $myvar = 2
+set $lower = 1
+while ($lower<$myvar) 
+	p/x $pc
+	s
+
+end
+
